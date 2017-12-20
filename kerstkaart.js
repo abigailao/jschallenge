@@ -13,7 +13,7 @@ function letterB1() {
             pos++;
             B1.style.top = pos + 'px';
             // x fall position
-            B1.style.left = '1000px';
+            B1.style.left = '400px';
 
 
 
@@ -37,7 +37,103 @@ function letterB2() {
             pos++;
             B2.style.top = pos + 'px';
             // x fall position
-            B2.style.left = '1200px';
+            B2.style.left = '600px';
+
+
+
+        }
+
+    }
+
+}
+
+function letterB3() {
+    var B3 = document.getElementById("letterB3");
+
+    var pos = 0;
+    var id =  setInterval(frame, 2);
+
+    function frame() {
+        if (pos === 200){
+            pos = 0;
+        } else {
+
+            pos++;
+            B3.style.top = pos + 'px';
+            // x fall position
+            B3.style.left = '1000px';
+
+
+
+        }
+
+    }
+}
+
+function letterB4() {
+    var B4 = document.getElementById("letterB4");
+
+    var pos = 0;
+    //speed amount of image falling down
+    var id =  setInterval(frame, 5);
+
+    function frame() {
+        if (pos === 400){
+            pos = 0;
+        } else {
+
+            pos++;
+            B4.style.top = pos + 'px';
+            // x fall position
+            B4.style.left = '1200px';
+
+
+
+        }
+
+    }
+
+}
+
+function letterB5() {
+    var B5 = document.getElementById("letterB5");
+
+    var pos = 0;
+    var id =  setInterval(frame, 2);
+
+    function frame() {
+        if (pos === 900){
+            pos = 0;
+        } else {
+
+            pos++;
+            B5.style.top = pos + 'px';
+            // x fall position
+            B5.style.left = '1700px';
+
+
+
+        }
+
+    }
+}
+
+function letterB6() {
+    var B6 = document.getElementById("letterB6");
+
+    var pos = 0;
+    //speed amount of image falling down
+    var id =  setInterval(frame, 5);
+
+    function frame() {
+        if (pos === 900){
+            pos = 0;
+        } else {
+
+            pos++;
+            B6.style.top = pos + 'px';
+            // x fall position
+            B6.style.left = '1900px';
 
 
 
