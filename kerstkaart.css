@@ -1,0 +1,22 @@
+body {
+    background-image: url("img/christmas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+* {margin: 0; padding: 0;}
+
+
+#canvas {
+    display: block;
+}
+
+#letterB1{
+    position:absolute
+
+}
+
+#letterB2{
+    position: absolute;
+}
